@@ -27,6 +27,14 @@ for (let i = 0; i < names.length; i++) {
 let average = total/names.length
 console.log(average);
 
+// 3.   How do you access the last element of any array?
+// To access the last element of any array, I would use the array.length method and subracting 1 from the length array. 
+// Subtracting 1 from the length array is due to indexs' in JavaScript start from 0. This means the last element's index would be the array length -1.
+
+// 4.	How do you access the first element of any array?
+// To acces the first element of any array, I would simply console.log the 0 index of the array. 
+// ex. console.log(names[0]); returns the first element in names array.
+
 // 5.Create a new array called nameLengths. Write a loop to iterate over the previously created names array and add the length of each name to the nameLengths array.
 let nameLengths = []
 for (let i = 0; i < names.length; i++) {
