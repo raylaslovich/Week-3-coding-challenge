@@ -1,1 +1,1 @@
-# Week3-Coding-Assignment
+# Week-3-coding-challenge
